@@ -38,7 +38,6 @@ while True:
                 x2, y2 = lmList[8][1], lmList[8][2]
                 cx, cy = (x1 + x2) // 2, (y1 + y2) // 2
 
-                # Draw landmarks and lines
                 cv2.circle(img, (x1, y1), 10, (0, 255, 0), cv2.FILLED)
                 cv2.circle(img, (x2, y2), 10, (0, 255, 0), cv2.FILLED)
                 cv2.line(img, (x1, y1), (x2, y2), (0, 255, 0), 3)
